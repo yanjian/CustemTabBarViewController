@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85400CA1E69425300A12457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85400C91E69425300A12457 /* main.m */; };
+		A85400CD1E69425300A12457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85400CC1E69425300A12457 /* AppDelegate.m */; };
+		A85400D31E69425300A12457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85400D11E69425300A12457 /* Main.storyboard */; };
+		A85400D51E69425400A12457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85400D41E69425400A12457 /* Assets.xcassets */; };
+		A85400D81E69425400A12457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85400D61E69425400A12457 /* LaunchScreen.storyboard */; };
+		A85400E31E69425400A12457 /* CostemTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85400E21E69425400A12457 /* CostemTabbarTests.m */; };
+		A86B68A11E7A5CDF00CC1356 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B68A01E7A5CDF00CC1356 /* ShareViewController.m */; };
+		A86B68A41E7A636200CC1356 /* TimeToTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B68A21E7A636200CC1356 /* TimeToTabBar.m */; };
+		A86B68A71E7A639200CC1356 /* TimeToTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B68A61E7A639200CC1356 /* TimeToTabBarViewController.m */; };
+		A86B68AA1E7A642200CC1356 /* TimeToDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B68A91E7A642200CC1356 /* TimeToDiscoverViewController.m */; };
+		A86B68AD1E7A643A00CC1356 /* GoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B68AC1E7A643A00CC1356 /* GoMainViewController.m */; };
+		A86B68B01E7A644800CC1356 /* GoActiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B68AF1E7A644800CC1356 /* GoActiveListViewController.m */; };
+		A86B68B31E7A645C00CC1356 /* GoAddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B68B21E7A645C00CC1356 /* GoAddFriendViewController.m */; };
+		A86B68B61E7A647500CC1356 /* GoSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A86B68B51E7A647500CC1356 /* GoSettingsVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A85400DF1E69425400A12457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85400BD1E69425300A12457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85400C41E69425300A12457;
+			remoteInfo = CostemTabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A85400C51E69425300A12457 /* CostemTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CostemTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85400C91E69425300A12457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A85400CB1E69425300A12457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A85400CC1E69425300A12457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A85400D21E69425300A12457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A85400D41E69425400A12457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85400D71E69425400A12457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A85400D91E69425400A12457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85400DE1E69425400A12457 /* CostemTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostemTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85400E21E69425400A12457 /* CostemTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CostemTabbarTests.m; sourceTree = "<group>"; };
+		A85400E41E69425400A12457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86B689F1E7A5CDF00CC1356 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		A86B68A01E7A5CDF00CC1356 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		A86B68A21E7A636200CC1356 /* TimeToTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeToTabBar.m; sourceTree = "<group>"; };
+		A86B68A31E7A636200CC1356 /* TimeToTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeToTabBar.h; sourceTree = "<group>"; };
+		A86B68A51E7A639200CC1356 /* TimeToTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeToTabBarViewController.h; sourceTree = "<group>"; };
+		A86B68A61E7A639200CC1356 /* TimeToTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeToTabBarViewController.m; sourceTree = "<group>"; };
+		A86B68A81E7A642200CC1356 /* TimeToDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeToDiscoverViewController.h; sourceTree = "<group>"; };
+		A86B68A91E7A642200CC1356 /* TimeToDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeToDiscoverViewController.m; sourceTree = "<group>"; };
+		A86B68AB1E7A643A00CC1356 /* GoMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoMainViewController.h; sourceTree = "<group>"; };
+		A86B68AC1E7A643A00CC1356 /* GoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoMainViewController.m; sourceTree = "<group>"; };
+		A86B68AE1E7A644800CC1356 /* GoActiveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoActiveListViewController.h; sourceTree = "<group>"; };
+		A86B68AF1E7A644800CC1356 /* GoActiveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoActiveListViewController.m; sourceTree = "<group>"; };
+		A86B68B11E7A645C00CC1356 /* GoAddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoAddFriendViewController.h; sourceTree = "<group>"; };
+		A86B68B21E7A645C00CC1356 /* GoAddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoAddFriendViewController.m; sourceTree = "<group>"; };
+		A86B68B41E7A647500CC1356 /* GoSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoSettingsVC.h; sourceTree = "<group>"; };
+		A86B68B51E7A647500CC1356 /* GoSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoSettingsVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85400C21E69425300A12457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85400DB1E69425400A12457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85400BC1E69425300A12457 = {
+			isa = PBXGroup;
+			children = (
+				A85400C71E69425300A12457 /* CostemTabbar */,
+				A85400E11E69425400A12457 /* CostemTabbarTests */,
+				A85400C61E69425300A12457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A85400C61E69425300A12457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85400C51E69425300A12457 /* CostemTabbar.app */,
+				A85400DE1E69425400A12457 /* CostemTabbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85400C71E69425300A12457 /* CostemTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A86B68A21E7A636200CC1356 /* TimeToTabBar.m */,
+				A86B68A31E7A636200CC1356 /* TimeToTabBar.h */,
+				A85400CB1E69425300A12457 /* AppDelegate.h */,
+				A85400CC1E69425300A12457 /* AppDelegate.m */,
+				A86B68A51E7A639200CC1356 /* TimeToTabBarViewController.h */,
+				A86B68A61E7A639200CC1356 /* TimeToTabBarViewController.m */,
+				A86B68B71E7A65B800CC1356 /* VC */,
+				A85400D11E69425300A12457 /* Main.storyboard */,
+				A85400D41E69425400A12457 /* Assets.xcassets */,
+				A85400D61E69425400A12457 /* LaunchScreen.storyboard */,
+				A85400D91E69425400A12457 /* Info.plist */,
+				A85400C81E69425300A12457 /* Supporting Files */,
+				A86B689F1E7A5CDF00CC1356 /* ShareViewController.h */,
+				A86B68A01E7A5CDF00CC1356 /* ShareViewController.m */,
+			);
+			path = CostemTabbar;
+			sourceTree = "<group>";
+		};
+		A85400C81E69425300A12457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A85400C91E69425300A12457 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A85400E11E69425400A12457 /* CostemTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A85400E21E69425400A12457 /* CostemTabbarTests.m */,
+				A85400E41E69425400A12457 /* Info.plist */,
+			);
+			path = CostemTabbarTests;
+			sourceTree = "<group>";
+		};
+		A86B68B71E7A65B800CC1356 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A86B68B41E7A647500CC1356 /* GoSettingsVC.h */,
+				A86B68B51E7A647500CC1356 /* GoSettingsVC.m */,
+				A86B68B11E7A645C00CC1356 /* GoAddFriendViewController.h */,
+				A86B68B21E7A645C00CC1356 /* GoAddFriendViewController.m */,
+				A86B68A81E7A642200CC1356 /* TimeToDiscoverViewController.h */,
+				A86B68A91E7A642200CC1356 /* TimeToDiscoverViewController.m */,
+				A86B68AB1E7A643A00CC1356 /* GoMainViewController.h */,
+				A86B68AC1E7A643A00CC1356 /* GoMainViewController.m */,
+				A86B68AE1E7A644800CC1356 /* GoActiveListViewController.h */,
+				A86B68AF1E7A644800CC1356 /* GoActiveListViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85400C41E69425300A12457 /* CostemTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85400E71E69425400A12457 /* Build configuration list for PBXNativeTarget "CostemTabbar" */;
+			buildPhases = (
+				A85400C11E69425300A12457 /* Sources */,
+				A85400C21E69425300A12457 /* Frameworks */,
+				A85400C31E69425300A12457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CostemTabbar;
+			productName = CostemTabbar;
+			productReference = A85400C51E69425300A12457 /* CostemTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A85400DD1E69425400A12457 /* CostemTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85400EA1E69425400A12457 /* Build configuration list for PBXNativeTarget "CostemTabbarTests" */;
+			buildPhases = (
+				A85400DA1E69425400A12457 /* Sources */,
+				A85400DB1E69425400A12457 /* Frameworks */,
+				A85400DC1E69425400A12457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85400E01E69425400A12457 /* PBXTargetDependency */,
+			);
+			name = CostemTabbarTests;
+			productName = CostemTabbarTests;
+			productReference = A85400DE1E69425400A12457 /* CostemTabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85400BD1E69425300A12457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhilifang;
+				TargetAttributes = {
+					A85400C41E69425300A12457 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					A85400DD1E69425400A12457 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A85400C41E69425300A12457;
+					};
+				};
+			};
+			buildConfigurationList = A85400C01E69425300A12457 /* Build configuration list for PBXProject "CostemTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85400BC1E69425300A12457;
+			productRefGroup = A85400C61E69425300A12457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85400C41E69425300A12457 /* CostemTabbar */,
+				A85400DD1E69425400A12457 /* CostemTabbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85400C31E69425300A12457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85400D81E69425400A12457 /* LaunchScreen.storyboard in Resources */,
+				A85400D51E69425400A12457 /* Assets.xcassets in Resources */,
+				A85400D31E69425300A12457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85400DC1E69425400A12457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85400C11E69425300A12457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86B68B61E7A647500CC1356 /* GoSettingsVC.m in Sources */,
+				A86B68A71E7A639200CC1356 /* TimeToTabBarViewController.m in Sources */,
+				A86B68B01E7A644800CC1356 /* GoActiveListViewController.m in Sources */,
+				A86B68A41E7A636200CC1356 /* TimeToTabBar.m in Sources */,
+				A86B68B31E7A645C00CC1356 /* GoAddFriendViewController.m in Sources */,
+				A86B68AD1E7A643A00CC1356 /* GoMainViewController.m in Sources */,
+				A85400CD1E69425300A12457 /* AppDelegate.m in Sources */,
+				A86B68AA1E7A642200CC1356 /* TimeToDiscoverViewController.m in Sources */,
+				A85400CA1E69425300A12457 /* main.m in Sources */,
+				A86B68A11E7A5CDF00CC1356 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85400DA1E69425400A12457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85400E31E69425400A12457 /* CostemTabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85400E01E69425400A12457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85400C41E69425300A12457 /* CostemTabbar */;
+			targetProxy = A85400DF1E69425400A12457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A85400D11E69425300A12457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85400D21E69425300A12457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A85400D61E69425400A12457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85400D71E69425400A12457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85400E51E69425400A12457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A85400E61E69425400A12457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85400E81E69425400A12457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CostemTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhilifang.CostemTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A85400E91E69425400A12457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CostemTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhilifang.CostemTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A85400EB1E69425400A12457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CostemTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhilifang.CostemTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CostemTabbar.app/CostemTabbar";
+			};
+			name = Debug;
+		};
+		A85400EC1E69425400A12457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CostemTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhilifang.CostemTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CostemTabbar.app/CostemTabbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85400C01E69425300A12457 /* Build configuration list for PBXProject "CostemTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85400E51E69425400A12457 /* Debug */,
+				A85400E61E69425400A12457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85400E71E69425400A12457 /* Build configuration list for PBXNativeTarget "CostemTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85400E81E69425400A12457 /* Debug */,
+				A85400E91E69425400A12457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85400EA1E69425400A12457 /* Build configuration list for PBXNativeTarget "CostemTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85400EB1E69425400A12457 /* Debug */,
+				A85400EC1E69425400A12457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85400BD1E69425300A12457 /* Project object */;
+}
